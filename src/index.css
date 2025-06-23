@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.cinzel {
+  font-family: "Cinzel", serif;
+  font-optical-sizing: auto;
+}
+
+.active {
+  color: #bb8506;
+  font-weight: 700;
+  font-size: medium;
+}
+
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.react-tabs__tab--selected {
+  font-size: 20px;
+  color: #bb8506 !important;
+  text-decoration: underline;
+  font-weight: 700;
+}
