@@ -1,12 +1,14 @@
-import { Helmet } from "react-helmet-async";
-import orderCover from "../../../assets/shop/banner2.jpg";
-import Cover from "../../../layout/Shared/cover/Cover";
-import { useState } from "react";
-import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
-import useMenu from "../../../hooks/useMenu";
-import OrderCards from "./OrderCards";
+
+import { useState } from "react";
+import { Helmet } from "react-helmet-async";
 import { useParams } from "react-router";
+import { Tab, TabList, TabPanel,Tabs } from "react-tabs";
+
+import orderCover from "../../../assets/shop/banner2.jpg";
+import useMenu from "../../../hooks/useMenu";
+import Cover from "../../../layout/Shared/cover/Cover";
+import OrderCards from "./OrderCards";
 
 const Order = () => {
   const categories = ["salads", "pizzas", "soups", "desserts", "drinks"];

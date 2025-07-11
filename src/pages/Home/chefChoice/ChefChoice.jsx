@@ -1,7 +1,7 @@
-import SectionTitle from "../../../components/sectionTitle/SectionTitle";
 import img1 from "../../../assets/home/slide1.jpg";
 import img2 from "../../../assets/home/slide2.jpg";
 import img3 from "../../../assets/home/slide3.jpg";
+import SectionTitle from "../../../components/sectionTitle/SectionTitle";
 import FoodCards from "../../../layout/Shared/cards/FoodCards";
 
 const ChefChoice = () => {

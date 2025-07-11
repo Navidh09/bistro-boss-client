@@ -1,9 +1,9 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
 import "./category.css";
-
 import "swiper/css";
 import "swiper/css/pagination";
+
+import { Pagination } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
 
 import category1 from "../../../assets/home/slide1.jpg";
 import category2 from "../../../assets/home/slide2.jpg";

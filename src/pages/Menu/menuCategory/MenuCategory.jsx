@@ -1,4 +1,6 @@
+import PropTypes from "prop-types";
 import { Link } from "react-router";
+
 import MenuItems from "../../../components/menuItems/MenuItems";
 import Cover from "../../../layout/Shared/cover/Cover";
 import Buttons from "../buttons/Buttons";
@@ -23,6 +25,12 @@ const MenuCategory = ({ items, title, img }) => {
       </Link>
     </div>
   );
+};
+
+MenuCategory.propTypes = {
+  items: PropTypes.array.isRequired,
+  title: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
 };
 
 export default MenuCategory;

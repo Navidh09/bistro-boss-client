@@ -1,17 +1,17 @@
-import SectionTitle from "../../../components/sectionTitle/SectionTitle";
-import { Swiper, SwiperSlide } from "swiper/react";
-
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/navigation";
+import "@smastrom/react-rating/style.css";
 
+import { Rating } from "@smastrom/react-rating";
+import axios from "axios";
+import { useEffect, useState } from "react";
+import { RiDoubleQuotesL } from "react-icons/ri";
 // import required modules
 import { Navigation } from "swiper/modules";
-import { useEffect, useState } from "react";
-import { Rating } from "@smastrom/react-rating";
-import "@smastrom/react-rating/style.css";
-import { RiDoubleQuotesL } from "react-icons/ri";
-import axios from "axios";
+import { Swiper, SwiperSlide } from "swiper/react";
+
+import SectionTitle from "../../../components/sectionTitle/SectionTitle";
 
 const Testimonials = () => {
   const [reviews, setReviews] = useState([]);
